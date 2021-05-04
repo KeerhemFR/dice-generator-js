@@ -1,0 +1,30 @@
+body{
+  background-color: #ecbd90;
+}
+
+button{
+  width: calc(100%/11);
+  font-size: 18px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+p{
+  font-size: 30px;
+}
+
+div{
+  text-align: center;
+}
+
+.halfPlus{
+  width: 100%;
+  margin: 4px 0;
+}
+
+#choice{
+  width: 30%;
+}

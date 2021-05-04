@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>Dice Roll Simulator</h1>
+    </header>
+
+    <main>
+      <!-- bouton d4 -->
+      <div class="halfPlus">
+        <button type="button" name="button" onclick="simul(1, 4)">1d4</button>
+        <button type="button" name="button" onclick="simul(2, 4)">2d4</button>
+        <button type="button" name="button" onclick="simul(3, 4)">3d4</button>
+        <button type="button" name="button" onclick="simul(4, 4)">4d4</button>
+        <button type="button" name="button" onclick="simul(5, 4)">5d4</button>
+        <button type="button" name="button" onclick="simul(6, 4)">6d4</button>
+        <button type="button" name="button" onclick="simul(7, 4)">7d4</button>
+        <button type="button" name="button" onclick="simul(8, 4)">8d4</button>
+        <button type="button" name="button" onclick="simul(9, 4)">9d4</button>
+        <button type="button" name="button" onclick="simul(10, 4)">10d4</button>
+      </div>
+
+      <!-- bouton d6-->
+      <div class="halfPlus">
+        <button type="button" name="button" onclick="simul(1, 6)">1d6</button>
+        <button type="button" name="button" onclick="simul(2, 6)">2d6</button>
+        <button type="button" name="button" onclick="simul(3, 6)">3d6</button>
+        <button type="button" name="button" onclick="simul(4, 6)">4d6</button>
+        <button type="button" name="button" onclick="simul(5, 6)">5d6</button>
+        <button type="button" name="button" onclick="simul(6, 6)">6d6</button>
+        <button type="button" name="button" onclick="simul(7, 6)">7d6</button>
+        <button type="button" name="button" onclick="simul(8, 6)">8d6</button>
+        <button type="button" name="button" onclick="simul(9, 6)">9d6</button>
+        <button type="button" name="button" onclick="simul(10, 6)">10d6</button>
+      </div>
+
+      <!-- bouton d8 -->
+      <div class="halfPlus">
+        <button type="button" name="button" onclick="simul(1, 8)">1d8</button>
+        <button type="button" name="button" onclick="simul(2, 8)">2d8</button>
+        <button type="button" name="button" onclick="simul(3, 8)">3d8</button>
+        <button type="button" name="button" onclick="simul(4, 8)">4d8</button>
+        <button type="button" name="button" onclick="simul(5, 8)">5d8</button>
+        <button type="button" name="button" onclick="simul(6, 8)">6d8</button>
+        <button type="button" name="button" onclick="simul(7, 8)">7d8</button>
+        <button type="button" name="button" onclick="simul(8, 8)">8d8</button>
+        <button type="button" name="button" onclick="simul(9, 8)">9d8</button>
+        <button type="button" name="button" onclick="simul(10, 8)">10d8</button>
+      </div>
+
+      <!-- bouton d10 -->
+      <div class="halfPlus">
+        <button type="button" name="button" onclick="simul(1, 10)">1d10</button>
+        <button type="button" name="button" onclick="simul(2, 10)">2d10</button>
+        <button type="button" name="button" onclick="simul(3, 10)">3d10</button>
+        <button type="button" name="button" onclick="simul(4, 10)">4d10</button>
+        <button type="button" name="button" onclick="simul(5, 10)">5d10</button>
+        <button type="button" name="button" onclick="simul(6, 10)">6d10</button>
+        <button type="button" name="button" onclick="simul(7, 10)">7d10</button>
+        <button type="button" name="button" onclick="simul(8, 10)">8d10</button>
+        <button type="button" name="button" onclick="simul(9, 10)">9d10</button>
+        <button type="button" name="button" onclick="simul(10, 10)">10d10</button>
+      </div>
+
+      <!-- bouton d20 -->
+      <div class="halfPlus">
+        <button type="button" name="button" onclick="simul(1, 20)">1d20</button>
+        <button type="button" name="button" onclick="simul(2, 20)">2d20</button>
+        <button type="button" name="button" onclick="simul(3, 20)">3d20</button>
+        <button type="button" name="button" onclick="simul(4, 20)">4d20</button>
+        <button type="button" name="button" onclick="simul(5, 20)">5d20</button>
+        <button type="button" name="button" onclick="simul(6, 20)">6d20</button>
+        <button type="button" name="button" onclick="simul(7, 20)">7d20</button>
+        <button type="button" name="button" onclick="simul(8, 20)">8d20</button>
+        <button type="button" name="button" onclick="simul(9, 20)">9d20</button>
+        <button type="button" name="button" onclick="simul(10, 20)">10d20</button>
+      </div>
+
+      <!-- bouton d100 -->
+      <div class="halfPlus">
+        <button type="button" name="button" onclick="simul(1, 100)">1d100</button>
+        <button type="button" name="button" onclick="simul(2, 100)">2d100</button>
+        <button type="button" name="button" onclick="simul(3, 100)">3d100</button>
+        <button type="button" name="button" onclick="simul(4, 100)">4d100</button>
+        <button type="button" name="button" onclick="simul(5, 100)">5d100</button>
+        <button type="button" name="button" onclick="simul(6, 100)">6d100</button>
+        <button type="button" name="button" onclick="simul(7, 100)">7d100</button>
+        <button type="button" name="button" onclick="simul(8, 100)">8d100</button>
+        <button type="button" name="button" onclick="simul(9, 100)">9d100</button>
+        <button type="button" name="button" onclick="simul(10, 100)">10d100</button>
+      </div>
+
+      <div class="">
+        <button id="choice" type="button" name="button" onclick="choose()">Choisissez vos dés</button>
+      </div>
+
+      <p>Vous avez eu les dés suivants : <span id=resultat></span></p>
+      <p>Le total de vos dés donne : <span id="accumuler"></span></p>
+      <p>Vous avez fait <span id="reussite"></span> réussites critiques, et <span id="echec"></span> échecs critiques.</p>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+  </body>
+</html>
